@@ -1,0 +1,41 @@
+.LoginPage__box {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+.LoginPage__title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.LoginPage__imageBox {
+  width: 60%;
+  height: 200px;
+  text-align: center;
+}
+
+.LoginPage__image {
+  height: 100%;
+}
+
+.LoginPage__formBox {
+  width: 50%;
+}
+
+.LoginPage__label {
+  float: left;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.LoginPage__btnLogin {
+  float: right;
+  min-width: 100px;
+}

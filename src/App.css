@@ -1,0 +1,13 @@
+.fix_scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.fix_scroll::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.fix_scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #ffffff;
+}

@@ -1,0 +1,9 @@
+.NewPage__box {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 16px auto;
+    row-gap: 12px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+.QuestionItem__box {
+  padding: 16px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.QuestionItem__author {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.QuestionItem__time {
+  font-size: 16px;
+  color: rgba(100, 100, 100, 0.5);
+  font-weight: 500;
+}
+
+.QuestionItem__btnBox {
+  padding: 8px;
+  border-top: 1px solid #aaa;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.QuestionItem__btnShow {
+  width: 90%;
+  padding: 8px;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid rgb(46, 226, 46);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.QuestionItem__btnShow:hover {
+  color: chocolate;
+  background-color: #ddd;
+}

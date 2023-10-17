@@ -1,0 +1,25 @@
+.LeaderBoard__box {
+    width: 60%;
+    margin: 16px auto;
+}
+
+.LeaderBoard__userBox {
+    display: flex;
+    column-gap: 8px;
+    padding: 4px 8px;
+    align-items: center;
+}
+
+.LeaderBoard__userName {
+    font-weight: 600;
+}
+
+.LeaderBoard__userId {
+    color: #666;
+    font-size: 14px;
+}
+
+.LeaderBoard__table thead tr th {
+    background-color: yellowgreen !important;
+    text-align: center;
+}

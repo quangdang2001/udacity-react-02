@@ -1,0 +1,22 @@
+.HomePage__box {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 16px auto;
+  row-gap: 32px;
+}
+
+.HomePage__childTitle {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 16px;
+}
+
+.HomePage__childBox {
+  padding: 16px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin-top: 10px;
+}

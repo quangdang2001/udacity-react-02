@@ -1,0 +1,72 @@
+.PageTemplate__box {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow-y: auto;
+    padding: 0;
+}
+
+
+.Header__title {
+    margin: 0 auto;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Header__navBox {
+    border-bottom: 1px solid #aaa;
+    display: flex;
+}
+
+.Header__navItem {
+    display: inline-block;
+    padding: 4px 12px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.Header__navItem:hover {
+    color: #999;
+    font-weight: 600;
+}
+
+.Header__navItem.active {
+    border-bottom: 2px solid black;
+    color: tomato;
+}
+
+.Header__userInfo {
+    margin-left: auto;
+    display: inline-block;
+    margin-right: 12px;
+    display: flex;
+    padding: 0 8px;
+    column-gap: 12px;
+}
+
+.Header__userAvatar {
+    object-fit: fill;
+    border: 1px solid black;
+}
+
+.Header__userName {
+    align-self: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Header__logoutBtn {
+    font-weight: 500;
+    margin-left: 8px;
+    font-size: 18px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.Header__logoutBtn:hover {
+    color: tomato;
+}
