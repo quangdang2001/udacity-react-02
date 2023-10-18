@@ -11,6 +11,7 @@ function LoginPage() {
   const [loginInfo, setLoginInfo] = useState({ username: "", password: "" });
 
   const allUser = useSelector((state) => state.users?.allUser);
+  const currentLocation = useSelector((state) => state.currentLocation);
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
@@ -25,10 +26,9 @@ function LoginPage() {
     event.preventDefault();
     let user = allUser.find((user) => user.id === loginInfo.username);
     if (user) {
-      console.log("LOGIN");
       dispatch(login(user));
       dispatch(asyncfetchAllQuestion(user?.answers));
-      navigate("/");
+      navigate(currentLocation || "/");
     }
   };
   return (

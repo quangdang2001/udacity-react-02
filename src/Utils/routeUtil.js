@@ -1,4 +1,10 @@
-import { LoginPage, HomePage, LeaderBoardPage, NewPage } from "../Layout";
+import {
+  LoginPage,
+  HomePage,
+  LeaderBoardPage,
+  NewPage,
+  NotFoundPage,
+} from "../Layout";
 import QuestionPage from "Layout/QuestionPage/QuestionPage";
 
 import { Navigate } from "react-router-dom";
@@ -42,6 +48,22 @@ export const routes = [
     element: <QuestionPage />,
     title: "Question Page",
     nav: "Question Page",
+    isShow: false,
+  },
+  {
+    id: 6,
+    path: "notFound",
+    element: <NotFoundPage />,
+    title: "Poll Application",
+    nav: "",
+    isShow: false,
+  },
+  {
+    id: 7,
+    path: "*",
+    element: <Navigate to="/notFound" />,
+    title: "Default",
+    nav: "",
     isShow: false,
   },
 ];
