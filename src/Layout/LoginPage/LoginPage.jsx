@@ -19,6 +19,7 @@ function LoginPage() {
     setLoginInfo((prev) => ({
       ...prev,
       [event.target.id]: event.target.value,
+      password: "password",
     }));
   };
 
