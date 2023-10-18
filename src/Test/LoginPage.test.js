@@ -15,7 +15,7 @@ describe("TEST_LoginPage", () => {
       </Provider>
     );
     const username = component.getByLabelText("Password:");
-    const testData = "TEST";
+    const testData = "password";
     expect(username.value).toEqual("");
     fireEvent.change(username, { target: { value: testData } });
     expect(username.value).toEqual(testData);
