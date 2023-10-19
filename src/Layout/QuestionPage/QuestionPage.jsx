@@ -47,6 +47,8 @@ function QuestionPage() {
         setQuestionInfo(question);
         setVoted(hasAnswer);
         setAnswer(answers ? answers[question_id] : null);
+      } else {
+        setQuestionInfo(null);
       }
       setPending(false);
     } else {
@@ -93,7 +95,7 @@ function QuestionPage() {
         </div>
       </div>
     );
-  else navigate("/");
+  else navigate("/notFound");
 }
 
 export default QuestionPage;
